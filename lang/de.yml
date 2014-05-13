@@ -1,0 +1,20 @@
+de:
+  NewspaperPage:
+    ALL_ARTICLES: 'Alle Artikel'
+    ARTICLE: 'Artikel'
+    DESCRIPTION: 'Übersicht der unterhalb dieser Seite angelegten Artikel'
+    LAYOUT: 'Layout Einstellungen'
+    MAINARTICLE_TITLE: 'Hauptartikel Einstellungen'
+    MAINARTICLEWIDTH: 'Breite des Hauptartikels'
+    PIX_VALIDATION: 'Wert in Pixel'
+    PLURALNAME: 'Newspaper-Seiten'
+    SINGULARNAME: 'Newspaper-Seite'
+    TABARTICLES: 'Artikel'
+  NewspaperArticle:
+    ARTICLEIMAGE: 'Artikelbild'
+    DATE: 'Datum'
+    DESCRIPTION: 'Artikel für die Newspaper-Page'
+    EXCERPT: 'Kurztext'
+    HEADLINE: 'Überschrift'
+    PLURALNAME: 'Newspaper-Artikel'
+    SINGULARNAME: 'Newspaper-Artikel'

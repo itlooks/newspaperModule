@@ -1,0 +1,12 @@
+en:
+  NewspaperArticle:
+    DESCRIPTION: test
+    PLURALNAME: test
+    SINGULARNAME: test
+  NewspaperPage:
+    DESCRIPTION: 'Generic content page'
+    PLURALNAME: 'Newspaper Pags'
+    SINGULARNAME: 'Newspaper Page'
+  SiteTree:
+    PLURALNAME: Pages
+    SINGULARNAME: Page

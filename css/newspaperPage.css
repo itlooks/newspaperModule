@@ -1,0 +1,186 @@
+/**
+ *  CSS style sheets for NewspaperModule styling
+ * **************************************
+ *  ____________________________________
+ * | MainPost                           |
+ * |____________________________________|
+ *  ____________________________________
+ * | allPosts                           |
+ * | ______________  ______________     |
+ * ||.articleSmall ||.articleSmall | ...|
+ * ||______________||______________|    |
+ * |      ...             ...           |
+ * |____________________________________|
+ *
+ * **************************************
+ * 1. mainPost
+ * 2. allPosts
+ */
+ 
+ 
+/****************************************
+ * 1. mainPost
+ ***************************************/
+#mainPost {
+    margin: 40px auto;
+    padding: 0;
+    background: #222;
+    overflow: hidden;
+    width: 950px;
+    border: 1px solid #333;
+}
+
+    #mainPost:hover {
+        -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+        box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
+        border: 1px solid #000;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+    }
+
+#mainPost .picture{
+    background: #111;
+    float: left;
+    filter: alpha(opacity = 100);
+    opacity: 1;
+    padding: 0;
+    height: 400px;
+}
+
+    #mainPost:hover .picture {
+        filter: alpha(opacity = 60);
+        opacity: 0.6;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        transition-duration: 0.5s;
+    }
+
+#mainPost .picture img{
+    margin: 0;
+}
+
+#mainPost a .content{
+    width: 309px;
+    float: left;
+    padding:20px 20px 20px 20px; 
+}
+
+#mainPost a h1 {
+    display: block;
+    color: #ccc;
+    font-size: 2.2em;
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+#mainPost a{
+    text-decoration: none;
+    display: block;
+}
+
+#mainPost a:hover{
+    text-decoration: none;
+}
+
+#mainPost p.date{
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#mainPost hr{
+    color: #444;
+    background-color: #222;
+    height: 1px;
+    display: block;
+}
+
+#mainPost p{
+    padding-top: 10px;
+    font-size: 1.3em;
+    color: #fcfcfc;
+    line-height: 1.6;
+    display: block;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+/****************************************
+ * 2. allPosts
+ ***************************************/
+#allPosts {
+    width: 978px;
+    margin: 20px auto;
+}
+
+#allPosts .articleSmall {
+    width: 300px;
+    padding: 10px 13px 15px 13px;
+    float: left;
+    display: inline;
+}
+
+#allPosts .articleSmall:hover {
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.3);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+#allPosts .articleSmall:hover .picture img {
+    filter: alpha(opacity = 60);
+    opacity: 0.6;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    margin: 0;
+}
+
+#allPosts .articleSmall .picture {
+    background: #111;
+    padding: 0;
+    height: 200px;
+}
+
+#allPosts .articleSmall h1 {
+    padding-top: 20px;
+    display: block;
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.2;
+    font-weight: normal;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#allPosts .articleSmall a {
+    text-decoration: none;
+}
+
+
+#allPosts .articleSmall p.date{
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#allPosts .articleSmall hr{
+    color: #999;
+    background-color: #999;
+    height: 1px;
+}
+
+#allPosts .articleSmall p{
+    padding-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5;
+}
+
+.nPMclearer {
+    clear: both;
+}

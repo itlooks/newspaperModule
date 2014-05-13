@@ -1,0 +1,8 @@
+---
+Name: newspaperModule
+---
+NewspaperPage:
+  MainImageWidth: 600
+  MainImageHeight: 400
+  ImageWidth: 300
+  ImageHeight: 200
